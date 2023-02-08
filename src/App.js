@@ -17,11 +17,11 @@ const App = () => {
     }
 
     let vname = ''
-    // function to add the voter to the pool(i.e decentralized database).
+    // function to search the name in the api json file.
     const search = async (e) => {
 
 
-        // get the name of the voter from the input field.
+        // get the name of thelocation from the input field.
         const form = nameOfLocn.current;
         vname = form['name'].value;
 
@@ -30,7 +30,7 @@ const App = () => {
         console.log(data)
         setWeather(data)
     }
-
+//  function to find your devices IP address and send it to weather API call to fetch the results even without searching for the location
 //     const fetchIpData = async() => {
 //         if (vname == '') {
 //             const data = await fetchIp();
