@@ -4,4 +4,4 @@ It is a weather application which is based on PWA(Progressive Web Apps) features
 
 
 
-Check it out : [https://get-weather101.netlify.app/](https://get-weather101.netlify.app/ OR https://get-weather007.netlify.app/)
+Check it out : (https://get-weather101.netlify.app/ OR https://get-weather007.netlify.app/)
